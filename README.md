@@ -1,6 +1,6 @@
 # Lendico Repayment Plan generator
 
-Repayment Plan Generator with Java 8, Maven, Spring Boot, Mockito for Lendico
+Repayment Plan Generator with Java 8, Maven, Spring Boot, Mockito and Docker for Lendico
 
 ## Runing it
 
@@ -36,7 +36,7 @@ $ docker build -t lendico-calculator .
 #### Running on Docker
 
 ```sh
-$ docker container run --publish 8000:8080 --detach --name lendico-calculator lendico-calculator
+$ docker container run --publish 8080:8080 --detach --name lendico-calculator lendico-calculator
 ```
 
 ### Testing endpoin
